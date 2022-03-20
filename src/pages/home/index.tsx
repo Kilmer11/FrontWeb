@@ -10,12 +10,14 @@ const Home = () =>{
             <div className="base-card home-card">
                 <div className="home-content-container">
                     <div>
-                        <h1>Conheça o melhor catálogo de produtos</h1>
+                        <h1>Conheça o melhor<br/>catálogo de produtos</h1>
                         <p>Ajudaremos a você a encontrar os melhores produtos disponíveis no mercado</p>
                     </div>
-                    <Link to="/products">
+                    <div>
+                        <Link to="/products">
                         <ButtonIcon />
-                    </Link>
+                        </Link>
+                    </div>
                 </div>
                 <div className="home-image-container">
                     <MainImage />
